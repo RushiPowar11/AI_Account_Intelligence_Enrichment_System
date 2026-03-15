@@ -1,0 +1,85 @@
+# Environment & Secrets
+.env
+.env.local
+.env.production
+*.env
+
+# Python
+.venv/
+venv/
+env/
+.python-version
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+
+# Distribution / Packaging
+*.egg-info/
+*.egg
+dist/
+build/
+eggs/
+wheels/
+*.whl
+
+# IDE & Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# Streamlit
+.streamlit/
+
+# Logs
+*.log
+logs/
+
+# OS Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Local data / cache
+*.sqlite3
+*.db
+.cache/
+cache/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Output files (keep sample data, ignore generated)
+output/*.json
+results/
+
+# Don't ignore these (for reference)
+!.env.example
+!data/sample_*.json
+!data/sample_*.csv
+!output/.gitkeep

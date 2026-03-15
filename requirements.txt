@@ -1,0 +1,21 @@
+# Core
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.5.0
+python-dotenv>=1.0.0
+httpx>=0.26.0
+
+# LLM & orchestration
+google-generativeai>=0.8.0
+google-genai>=1.0.0
+langgraph>=0.2.0
+langchain-core>=0.3.0
+
+# Enrichment & search
+tavily-python>=0.3.0
+
+# Frontend
+streamlit>=1.29.0
+
+# Data
+pandas>=2.0.0

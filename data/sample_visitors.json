@@ -1,0 +1,18 @@
+[
+  {
+    "visitor_id": "001",
+    "ip": "34.201.xxx.xxx",
+    "pages_visited": ["/pricing", "/ai-sales-agent", "/case-studies"],
+    "time_on_site": "3m 42s",
+    "visits_this_week": 3,
+    "referral_source": "google"
+  },
+  {
+    "visitor_id": "002",
+    "ip": "52.0.xxx.xxx",
+    "pages_visited": ["/docs", "/api"],
+    "time_on_site": "8m 15s",
+    "visits_this_week": 1,
+    "referral_source": "direct"
+  }
+]
